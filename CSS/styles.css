@@ -208,10 +208,14 @@ padding: 0px 10;
      transform: rotate(180deg);
  }
 
+
+
+ .dsmovie-pagination-box button:disabled img {
+    filter: unset;
+}
+
 .dsmovie-pagination-box button img {
    filter: brightness(0) saturate(100%) invert(25%) sepia(20%) saturate(6521%) hue-rotate(230deg) brightness(97%) contrast(93%);
 }
 
-.dsmovie-pagination-box button:disabled img {
-    filter: unset;
-}
+
